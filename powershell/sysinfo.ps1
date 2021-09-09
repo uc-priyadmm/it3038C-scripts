@@ -7,4 +7,3 @@ write-host(IPv4)
 $IP = IPv4   
 Write-Host(“This machine’s IP is $IP”)
 Write-Host(“This machine’s IP is {0}” -f $IP) 
-
