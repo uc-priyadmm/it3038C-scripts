@@ -30,6 +30,6 @@ function Get-PSVersion {
    }
     $tmd = unixtime
 
- (“This machine’s IP is $IP. User is $ID. Hostname is $HostID. PowerShell Version $PSVer. Today's Date is $tmd" ) | out-file -FilePath /Users/mayank/Desktop/file.txt -Append
+ (“This machine’s IP is $IP. User is $ID. Hostname is $HostID. PowerShell Version $PSVer. Today's Date is $tmd" ) | out-file -FilePath /Users/mayank/Desktop/file.txt -Append #UNIXFILEPATH
 
 Write-Host("This machine’s IP is $IP. User is $ID. Hostname is $HostID. PowerShell Version $PSVer. Today's Date is $tmd")
